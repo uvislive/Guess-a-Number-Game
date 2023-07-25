@@ -1,0 +1,11 @@
+form {
+/* /  border: 1px solid blue; */
+  padding: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+body{
+  background: linear-gradient(#141e30, #243b55);
+}

@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Responsive WebDesign Templates</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous" />
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+        <script src="https://kit.fontawesome.com/b4621202e4.js" crossorigin="anonymous"></script>
+        <style>
+            .uviscard img {
+                width: 15rem;
+                height: 10rem;
+
+            }
+
+            .uviscard {
+                border: 2px solid black;
+                box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+            }
+
+            .realSlider {
+                width: 100%;
+                overflow-x: scroll;
+                overflow-y: hidden;
+            }
+
+            .realSlider::-webkit-scrollbar {
+                display: none;
+            }
+
+
+            .mycard {
+                box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+            }
+
+            body {
+                font-family: Rubik;
+            }
+
+            .mycard:hover {
+                transform: scale(.9.5);
+                transition: transform(450ms);
+                transition-duration: 0.5s;
+                transition-timing-function: ease-in-out;
+                box-shadow: 2px 3px 2px 2px red;
+            }
+
+            .uviscard:hover {
+                transform: scale(.9);
+                transition: transform(2s);
+            }
+
+            @media screen and (max-width:876px) {
+                .uvtext {
+                    font-size: large;
+                }
+
+                .uviscard img {
+                    width: 12rem;
+                    height: 6rem;
+                }
+
+                .uviscard {
+                    height: 15rem;
+                    width: 12rem;
+                }
+
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="myNav sticky-top">
+            <!-- firstNavbar -->
+              <div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center py-0">
+      <a class="navbar-brand" href="#">
+        <img src="mindgame.png" class="" alt="logo" style="width: 190px" />
+      </a>
+    </nav>
+  </div>
+            <!-- second Navbar -->
+            <div>
+                <nav class="navbar pb-3 navbar-expand-sm bg-dark navbar-dark py-0">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                        <ul class="navbar-nav m-2">
+                            <li class="nav-item">
+                                <a href="homepage.html" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="About.html" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact.html" class="nav-link">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="index2.html" class="nav-link">Play Game</a>
+                            </li>
+                                <li class="nav-item">
+                                <a href="Login.html" class="nav-link">Login page</a>
+                            </li>
+                             </li>
+                                <li class="nav-item">
+                                <a href="Register.html" class="nav-link">Register</a>
+                            </li>
+                        </ul>
+                    </div>
+               <nav>
+            </div>
+           
+
+        </div>
+
+
+        <!-- lets make one Image Carousel in the between -->
+
+        <div class="container-fluid w-100">
+
+            <div class="image firstCard card">
+                <!-- <img class="w-100" src="https://source.unsplash.com/1400x500/?building " alt=""> -->
+                <img class="w-100" src="game3.jpg" alt="">
+                <div class="card-img-overlay d-grid justify-content-center align-content-center text-white fw-bold">
+                    <h1 class="text-start  uvtext mt-2"><mark>MindGames.com:New </mark></h1>
+                    <h1 class="mt-2 uvtext"><mark> Era of the Gaming World </mark> </h1>
+                   <a href="index2.html">  <button type="button" class=" bg-black mt-2 btn btn-success w-50 rounded-2  "> <i class=" mx-2 fa-solid fa-play"></i>Play Now</button></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- category SEction in the html -->
+         <div class="uv mt-4">
+            <h1 class="h1 text-center ">Our Famous Game Categories worldwide</h1>
+            <div class="mycat row d-flex justify-content-center  m-3 mb-5 ">
+                <button class=" col-md-3 btn btn-outline-dark mx-2 my-2  " data-bs-toggle="modal"
+                    data-bs-target="#mymodal">
+                    Mind Games
+                </button>
+                <!-- here modal is started  -->
+                <div class="modal fade right" id="mymodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                    aria-hidden="true" data-backdrop="false">
+                    <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info" role="document">
+
+                        <div class="modal-content">
+
+                            <div class="modal-header">
+                                <p class="heading"> Best Mind Games </p>
+
+                                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true" class="white-text">&times;</span>
+                                </button>
+                            </div>
+
+                            <!--Body-->
+                            <div class="modal-body">
+
+                                <div class="row">
+                                    <div class="col-5">
+                                        <img src="game7.jpg" class="img-fluid"
+                                            alt="">
+
+                                    </div>
+
+                                    <div class="col-7">
+                                        <p><strong> best Mind games </strong></p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit
+                                            amet consectetur adipisicing elit. Temporibus consequuntur saepe et
+                                            laboriosam animi autem, enim cumque aperiam mollitia magnam?[...]</p>
+                                        <button type="button" class="btn btn-info btn-md">Read more</button>
+                                        <input class="mt-3" type="form-control" placeholder="Enter your Email id ">
+                                        <button type="button" class="mt-2 btn btn-primary">Subscribe Now</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+
+                <!-- modal is ended  -->
+
+                <button class=" col-md-3   btn btn-outline-dark mx-2 my-2" data-bs-toggle="modal"
+                    data-bs-target="#thisModal">
+                    Sports Games
+                </button>
+
+                <!-- Russia Modal  -->
+                <!-- here modal is started  -->
+                <div class="modal fade right" id="thisModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                    aria-hidden="true" data-backdrop="false">
+                    <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info" role="document">
+
+                        <div class="modal-content">
+
+                            <div class="modal-header">
+                                <p class="heading"> Sports Games</p>
+
+                                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true" class="white-text">&times;</span>
+                                </button>
+                            </div>
+
+                            <!--Body-->
+                            <div class="modal-body">
+
+                                <div class="row">
+                                    <div class="col-5">
+                                        <img src="game4.jpg" class="img-fluid" alt="">
+
+                                    </div>
+
+                                    <div class="col-7">
+                                        <p><strong>Sports Games</strong></p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit
+                                            amet consectetur adipisicing elit. Temporibus consequuntur saepe et
+                                            laboriosam animi autem, enim cumque aperiam mollitia magnam?[...]</p>
+                                        <button type="button" class="btn btn-info btn-md">Read more</button>
+                                        <input class="mt-3" type="form-control" placeholder="Enter your Email id ">
+                                        <button type="button" class="mt-2 btn btn-primary">Subscribe Now</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+                <button class=" col-md-3   btn btn-outline-dark mx-2 my-2" data-bs-toggle="modal" data-bs-target="#newmodal">
+                    Survival Games
+                </button>
+                <!-- modal strted  -->
+                <div class="modal fade right" id="newmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                    aria-hidden="true" data-backdrop="false">
+                    <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info" role="document">
+
+                        <div class="modal-content">
+
+                            <div class="modal-header">
+                                <p class="heading"> Survival Games</p>
+
+                                <button type="button" id="#newmodal" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true" class="white-text">&times;</span>
+                                </button>
+                            </div>
+
+                            <!--Body-->
+                            <div class="modal-body">
+
+                                <div class="row">
+                                    <div class="col-5">
+                                        <img src="game1.jpg" class="img-fluid"
+                                            alt="">
+
+                                    </div>
+
+                                    <div class="col-7">
+                                        <p><strong> Survival Games</strong></p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit
+                                            amet consectetur adipisicing elit. Temporibus consequuntur saepe et
+                                            laboriosam animi autem, enim cumque aperiam mollitia magnam?[...]</p>
+                                        <button type="button" class="btn btn-info btn-md">Read more</button>
+                                        <input class="mt-3" type="form-control" placeholder="Enter your Email id ">
+                                        <button type="button" class="mt-2 btn btn-primary">Subscribe Now</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end modal  -->
+
+            </div>
+        </div>
+
+
+        <hr>
+        <!-- two Cards  -->
+
+        <div class="container-fluid w-90%">
+            <div class=" container d-flex justify-content-around align-items-center flex-wrap">
+                <div class="mycard view overlay zoom card1 m-3 card-body col-sm-10   col-lg-5 ">
+                    <img class="card-img" src="game6.jpg" alt="">
+                    <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse rem fugiat,
+                        dicta vitae, obcaecati nihil repellat omnis impedit provident neque magni, a hic atque!</p>
+                    <span class="d-inline">
+                        <svg class="mx-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-share" viewBox="0 0 16 16">
+                            <path
+                                d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+                        </svg>
+                        <button type="button" class="btn btn-primary"> view More</button>
+                    </span>
+                </div>
+                <div class="mycard card1 card-body m-3 col-sm-10  col-lg-5  ">
+                    <img class="card-img" src="game9.jpg" alt="">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fugiat
+                        quas temporibus beatae dolorum eos deleniti dolor adipisci, dignissimos labore!</p>
+                    <span class="d-inline">
+                        <svg class="mx-3 fa-lg " xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                            <path
+                                d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+                        </svg>
+                        <button type="button" class="btn btn-primary"> view More</button>
+                    </span>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <!-- Now Lets Make The Slider OF the Cards  -->
+
+            <div class="uvislive  mt-4">
+                <h1 class="text-center text-uppercase text-decoration-underline">Most Famous Games of the Community
+                </h1>
+                <!-- <pre class="text-center font-monospace m-aut">Lorem ipsum dolor consectetur adipisicing elit. 
+    ullam sint fuga unde quae distinctio 
+     omnis exercitationem earum dolore 
+     harum enim. Ratione!</pre> -->
+                <h4 class="text-center fw-bold">
+                    <== Slide Here To See=>
+                </h4>
+
+                <div class="realSlider  mt-3 d-flex  ">
+                    <div class="m-3 xhome uviscard border-2 rounded-2">
+                        <img class="card-img" src="game1.jpg" alt="">
+                        <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, totam.</p>
+                        <div class="action mt-2  d-flex justify-content-around">
+                            <span>
+                                <svg class=" fa-lg " xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                                    <path
+                                        d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+                                </svg>
+                            </span>
+                            <span>
+                                <object data="thumbups.svg" width="22px"> </object>
+                            </span>
+                            <span>
+                                <object data="comments.svg" width="22px"> </object>
+                            </span>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="m-3 uviscard border-2 rounded-2">
+                        <img class="card-img" src="game2.jpg" alt="">
+                        <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, totam.</p>
+                        <div class="action mt-2 mb-3 d-flex justify-content-around">
+                            <span>
+                                <svg class=" fa-lg " xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                                    <path
+                                        d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+                                </svg>
+                            </span>
+                            <span>
+                                <object data="thumbups.svg" width="22px"> </object>
+                            </span>
+                            <span>
+                                <object data="comments.svg" width="22px"> </object>
+                            </span>
+                        </div>
+                    </div>
+
+
+                    <div class=" m-3 uviscard border-2 rounded-2">
+                        <img class="card-img" src="game3.jpg" alt="">
+                        <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, totam.</p>
+                        <div class="action mt-2 mb-3 d-flex justify-content-around">
+                            <span>
+                                <svg class=" fa-lg " xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                                    <path
+                                        d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+                                </svg>
+                            </span>
+                            <span>
+                                <object data="thumbups.svg" width="22px"> </object>
+                            </span>
+                            <span>
+                                <object data="comments.svg" width="22px"> </object>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="m-3  uviscard border-2 rounded-2">
+                        <img class="card-img" src="game4.jpg" alt="">
+                        <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, totam.</p>
+                        <div class="action mt-2 mb-3 d-flex justify-content-around">
+                            <span>
+                                <svg class=" fa-lg " xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                                    <path
+                                        d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+                                </svg>
+                            </span>
+                            <span>
+                                <object data="thumbups.svg" width="22px"> </object>
+                            </span>
+                            <span>
+                                <object data="comments.svg" width="22px"> </object>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="uviscard m-3  border-2 rounded-2">
+                        <img class="card-img" src="game6.jpg" alt="">
+                        <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, totam.</p>
+                        <div class="action mt-2 mb-3 d-flex justify-content-around">
+                            <span>
+                                <svg class=" fa-lg " xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                                    <path
+                                        d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+                                </svg>
+                            </span>
+                            <span>
+                                <object data="thumbups.svg" width="22px"> </object>
+                            </span>
+                            <span>
+                                <object data="comments.svg" width="22px"> </object>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="uviscard m-3  border-2 rounded-2">
+                        <img class="card-img" src="game7.jpg" alt="">
+                        <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, totam.</p>
+                        <div class="action mt-2 mb-3 d-flex justify-content-around">
+                            <span>
+                                <svg class=" fa-lg " xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                                    <path
+                                        d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+                                </svg>
+                            </span>
+                            <span>
+                                <object data="thumbups.svg" width="22px"> </object>
+                            </span>
+                            <span>
+                                <object data="comments.svg" width="22px"> </object>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="m-3 uviscard border-2 rounded-2">
+                        <img class="card-img" src="https://source.unsplash.com/1400x700/?luxury" alt="">
+                        <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, totam.</p>
+                        <div class="action mt-2 mb-3 d-flex justify-content-around">
+                            <span>
+                                <svg class=" fa-lg " xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                                    <path
+                                        d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+                                </svg>
+                            </span>
+                            <span>
+                                <object data="thumbups.svg" width="22px"> </object>
+                            </span>
+                            <span>
+                                <object data="comments.svg" width="22px"> </object>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="thisFoote mt-8"> <!-- FOOTER -->
+                <footer class="w-100 py-4 bg-dark ">
+                    <div class="container py-4">
+                        <div class="row gy-4 gx-5">
+                            <div class="col-lg-4 col-md-6">
+                                <h5 class="h1 text-white">
+                                    <i class="fa-brands  m-2 fa-square-facebook"></i>
+                                    <i class="fa-brands m-2 fa-linkedin-in"></i>
+                                    <i class="fa-brands m-2 fa-twitter"></i>
+                                    <i class="fa-brands m-2 fa-instagram"></i>
+
+                                </h5>
+                                <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                    sed do eiusmod tempor incididunt.</p>
+                                <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a
+                                        class="text-primary" href="#">theRealtor.com</a></p>
+                            </div>
+                            <div class="col-lg-2 col-md-6">
+                                <h5 class="text-white mb-3">Quick links</h5>
+                                <ul class="list-unstyled  ">
+                                    <li><a href="#">Home page</a></li>
+                                    <li><a href="#">About page</a></li>
+                                    <li><a href="#">Service</a></li>
+                                    <li><a href="#">Properties</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-2 col-md-6">
+                                <h5 class="text-white mb-3">Social Handels</h5>
+                                <ul class="list-unstyled ">
+                                    <li ><a href="#">Instagram</a></li>
+                                    <li><a href="#">FaceBook</a></li>
+                                    <li><a href="#">linked In</a></li>
+                                    <li><a href="#">Twitter</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <h5 class="text-white mb-3">Newsletter</h5>
+                                <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                    sed do eiusmod tempor incididunt.</p>
+                                <form action="#">
+                                    <div class="input-group mb-3">
+                                        <input class="form-control" type="text"
+                                            placeholder="Enter The username or Email" aria-label="Recipient's username"
+                                            aria-describedby="button-addon2">
+                                        <button class="btn btn-primary" id="uvixa" type="button"><i
+                                                class="fas fa-paper-plane"></i></button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+
+
+
+
+    </body>
+
+</html>
